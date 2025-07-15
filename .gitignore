@@ -1,3 +1,5 @@
-#Arquivos para bloquear
+#Arquivos para ignorar
 
 obj/
+
+*.sln
