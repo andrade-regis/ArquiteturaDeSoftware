@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Biblioteca.UI/1.0.0": {
+        "dependencies": {
+          "Biblioteca.Application": "1.0.0",
+          "Biblioteca.Domain": "1.0.0",
+          "Biblioteca.Infraestructure": "1.0.0"
+        },
+        "runtime": {
+          "Biblioteca.UI.dll": {}
+        }
+      },
+      "Biblioteca.Application/1.0.0": {
+        "dependencies": {
+          "Biblioteca.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Biblioteca.Application.dll": {}
+        }
+      },
+      "Biblioteca.Domain/1.0.0": {
+        "runtime": {
+          "Biblioteca.Domain.dll": {}
+        }
+      },
+      "Biblioteca.Infraestructure/1.0.0": {
+        "dependencies": {
+          "Biblioteca.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Biblioteca.Infraestructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Biblioteca.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Biblioteca.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Biblioteca.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Biblioteca.Infraestructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
